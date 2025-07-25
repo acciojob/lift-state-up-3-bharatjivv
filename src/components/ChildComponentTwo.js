@@ -11,4 +11,8 @@ const ChildComponentTwo = ({setSelectedOption}) => {
   )
 }
 
+<<<<<<< HEAD
 export default ChildComponentTwo
+=======
+export default ChildComponentTwo    
+>>>>>>> 689954dbbc3f043a12db5e39ad2426370f4373be
