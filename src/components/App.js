@@ -6,10 +6,11 @@ import ChildComponentTwo from "./ChildComponentTwo";
 
 const App = () => {
   const [ selectedOption, setSelectedOption ] = useState("")
+
   return (
     <div>
         {/* Do not remove the main div */}
-        <h1>Parent Component</h1>
+        <h1 className="parent">Parent Component</h1>
         <ChildComponentOne setSelectedOption = {setSelectedOption} />
         <ChildComponentTwo setSelectedOption = {setSelectedOption} />
 
